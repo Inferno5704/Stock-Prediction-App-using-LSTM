@@ -141,7 +141,7 @@ if st.button("🚀 Start Prediction", type="primary"):
         st.write(f"**MAE (Mean Absolute Error):** {mae:.4f}")
         st.write(f"**MSE (Mean Squared Error):** {mse:.4f}")
         st.write(f"**RMSE (Root Mean Squared Error):** {rmse:.4f}")
-        st.write(f"**R² Score:** {r2:.4f}")
+        st.write(f"**R² Score/Accuracy:** {r2:.4f}")
 
         st.line_chart(pd.DataFrame({"Actual": actual_prices.flatten(), "Predicted": predicted_prices.flatten()}, index=df_test.index[:len(predicted_prices)]))
 
@@ -164,3 +164,4 @@ if st.button("🚀 Start Prediction", type="primary"):
         pct = (change / current_price) * 100
 
         st.metric("Predicted Price", f"${predicted_price:.2f}", f"{pct:+.2f}%")
+
