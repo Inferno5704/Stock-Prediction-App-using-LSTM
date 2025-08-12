@@ -131,7 +131,7 @@ stock-lstm-prediction/
 
 ## 🙏 Acknowledgments
 
-Special thanks to **supremeapollo** for their valuable collaboration and contributions to this project.
+Special thanks to **[supremeapollo](https://github.com/supremeapollo)** for their valuable collaboration and contributions to this project.
 
 ## 🤝 Contributing
 
